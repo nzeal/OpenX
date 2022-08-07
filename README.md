@@ -40,15 +40,13 @@
 2. Single instruction multiple data (SIMD)
 3. OpenACC offloadings 
   a. Data movement 
-  b. Loop parallelisms 
-
+  b. Loop parallelisms
 4. OpenMP Offloadings
     a. Target construct
     b. The map clause
     c. Target Teams construct
     d. Nowait clauses 
     e. Distributed construct
-
 5. Benchmark  
 # -------------------------------------------------
 
