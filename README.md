@@ -30,7 +30,6 @@
 │   └── openmpPerformance
 ├── benchmarkfig1.html
 └── benchmarkfig1.png
-        └── mm_matrix.cu
 ```
 
 <br>
