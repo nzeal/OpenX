@@ -2,51 +2,50 @@
 
  </p>
  
- <h2 align="center"> CUDA </h2>
+ <h2 align="center"> Parallel computation on the CPU and GPU: structure and application </h2>
 
-<p align="center"> Parallel computation on the CPU and GPU: structure and application</p>
+<p align="center">  Nitin Shukla   </p>
   
-
-	Nitin Shukla   
+ 
 # -------------------------------------------------
 
 <br> 
+```
 .
+├── AccelerationToMulitcore
+│   ├── 1.CPUOpenmp
+│   ├── 2.SIMD
+│   └── 3.AffinityOpenMP
 ├── AccelerationToGU
 │   ├── GPUoffOpenACC
 │   └── GPUoffOpenMP
-├── AccelerationToMulitcore
-│   ├── 03.AffinityOpenMP
-│   ├── 1.CPUOpenmp
-│   └── 2.SIMD
-├── README.md
+├── Benchmarks
+│   ├── OpenACC_ganga_reduction_collapse
+│   ├── OpenACC_kernels_data_optimized
+│   ├── OpenAcc_reduction_collapse
+│   ├── OpenMP_reduction_collapse
+│   ├── OpenMP_reduction_collapse_teams_gang
+│   └── openmpPerformance
+├── benchmarkfig1.html
 └── benchmarkfig1.png
-
+```
 <br>
 
 ### Topics
-
-1. Why Parallel computers are here to stay 
-
-2. Parallelization on CPU 
-
-3. Single instruction multiple data (SIMD)
-
-4. Introduction to Hetrogenous system (GPU) 
-
-5. OpenACC offloadings 
+1. OpenMP Directives
+2. Single instruction multiple data (SIMD)
+3. OpenACC offloadings 
   a. Data movement 
   b. Loop parallelisms 
 
-5. OpenMP Offloadings 
+4. OpenMP Offloadings 
   a. Target construct
   b. The map clause
   c. Target Teams construct 
   d. Nowait clauses 
   e. Distributed construct
-  f. 5th and 6th Exercises
 
-6. Benchmark  
+5. Benchmark  
 # -------------------------------------------------
 
 ## Authors and acknowledgment
