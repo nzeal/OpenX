@@ -39,10 +39,12 @@
 1. OpenMP Directives
 2. Single instruction multiple data (SIMD)
 3. OpenACC offloadings
+
     a. Data movement
     b. Loop parallelisms 
 
 4. OpenMP Offloadings
+
     a. Target construct
     b. The map clause
     c. Target Teams construct
