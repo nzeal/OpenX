@@ -65,6 +65,6 @@ OpenMP 5.0.1 specification and examples https://www.openmp.org/resources/
 
 ## Feedback 
 ----------------------------------------
-We welcome constructive feedback to improve the quality of this work. So if you have one contact me:
+To improve the quality of this work or for any suggestion contact me:
 n.shukla@cineca.it
 ----------------------------------------
