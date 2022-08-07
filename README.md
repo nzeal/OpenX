@@ -4,7 +4,7 @@
  
  <h2 align="center"> Parallel computation on the CPU and GPU: structure and application </h2>
 
-<p align="center"> Open<b>X</b> { *X = MP/ACC* } Directives </p>
+<p align="center"> Open<b>X</b> { <b> X = MP/ACC </b> } Directives </p>
   
 
 
