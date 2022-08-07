@@ -39,9 +39,8 @@
 1. OpenMP Directives
 2. Single instruction multiple data (SIMD)
 3. OpenACC offloadings
-
-    a. Data movement
-    b. Loop parallelisms 
+    - Data movement
+    - Loop parallelisms 
 
 4. OpenMP Offloadings
 
