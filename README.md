@@ -1,21 +1,34 @@
-## Parallel computation on the CPU and GPU: structure and application 
+ <p align="center">
 
-	Nitin Shukla
-	CINECA, Bologna, Italy 
-   
+ </p>
+ 
+ <h2 align="center"> CUDA </h2>
+
+<p align="center"> Parallel computation on the CPU and GPU: structure and application</p>
+  
+
+	Nitin Shukla   
 # -------------------------------------------------
 
-Topics that we covered
+<br> 
+.
+├── AccelerationToGU
+│   ├── GPUoffOpenACC
+│   └── GPUoffOpenMP
+├── AccelerationToMulitcore
+│   ├── 03.AffinityOpenMP
+│   ├── 1.CPUOpenmp
+│   └── 2.SIMD
+├── README.md
+└── benchmarkfig1.png
+
+<br>
+
+### Topics
 
 1. Why Parallel computers are here to stay 
 
 2. Parallelization on CPU 
-   a. Parallel construct 
-   b. Synchronization construct 
-   c. Worksharing construct
-   d. Data sharing
-   e. Exercises 
-      Total 4 with src code
 
 3. Single instruction multiple data (SIMD)
 
@@ -32,8 +45,8 @@ Topics that we covered
   d. Nowait clauses 
   e. Distributed construct
   f. 5th and 6th Exercises
-  
-  Benchmark 
+
+6. Benchmark  
 # -------------------------------------------------
 
 ## Authors and acknowledgment
