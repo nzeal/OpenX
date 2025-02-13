@@ -48,7 +48,8 @@
     - Nowait clauses
     - Distributed construct
 
-5. Benchmark  
+5. Benchmark
+6. Patches:OpenMP's GPU memory management
 # -------------------------------------------------
 
 ## Authors and acknowledgment
