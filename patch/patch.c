@@ -66,6 +66,20 @@ void process_patches_optimized(double** patches) {
 }
 
 int main() {
+
+     // Check if a GPU is available
+    int num_devices = omp_get_num_devices();
+    printf("Number of available devices: %d\n", num_devices);
+
+    if (num_devices < 1) {
+        printf("No GPU devices available. Exiting.\n");
+        return 1;
+    }
+
+    // Set default device to GPU (device 0)
+    omp_set_default_device(0);	
+
+
     // Initialize patches with random values
     double** patches = malloc(NUM_PATCHES * sizeof(double*));
     for (int i = 0; i < NUM_PATCHES; i++) {

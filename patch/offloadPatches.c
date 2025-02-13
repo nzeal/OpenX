@@ -117,6 +117,10 @@ int main() {
         patches_host[i] = i * 0.5f;
     }
 
+    printf("\nPerformance Results:\n");
+    printf("========================================\n");
+
+    printf("Naive Approach:\n");
     // Process patches with naive approach
     process_patches_naive(patches_host);
 
@@ -125,6 +129,7 @@ int main() {
         patches_host[i] = i * 0.5f;
     }
 
+    printf("\nOptimized Approach:\n");
     // Process patches with improved approach
     process_patches_improved(patches_host);
 
