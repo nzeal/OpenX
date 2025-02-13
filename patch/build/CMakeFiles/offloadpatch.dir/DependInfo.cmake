@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/patch.c" "/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/build/CMakeFiles/patch.dir/patch.c.o"
+  "/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/offloadPatches.c" "/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/build/CMakeFiles/offloadpatch.dir/offloadPatches.c.o"
   )
 set(CMAKE_C_COMPILER_ID "NVHPC")
 

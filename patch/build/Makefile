@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named offloadpatch
+
+# Build rule for target.
+offloadpatch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 offloadpatch
+.PHONY : offloadpatch
+
+# fast build rule for target.
+offloadpatch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offloadpatch.dir/build.make CMakeFiles/offloadpatch.dir/build
+.PHONY : offloadpatch/fast
+
+#=============================================================================
 # Target rules for targets named patch
 
 # Build rule for target.
@@ -134,7 +147,7 @@ offloadPatches.o: offloadPatches.c.o
 
 # target to build an object file
 offloadPatches.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/patch.dir/build.make CMakeFiles/patch.dir/offloadPatches.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offloadpatch.dir/build.make CMakeFiles/offloadpatch.dir/offloadPatches.c.o
 .PHONY : offloadPatches.c.o
 
 offloadPatches.i: offloadPatches.c.i
@@ -142,7 +155,7 @@ offloadPatches.i: offloadPatches.c.i
 
 # target to preprocess a source file
 offloadPatches.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/patch.dir/build.make CMakeFiles/patch.dir/offloadPatches.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offloadpatch.dir/build.make CMakeFiles/offloadpatch.dir/offloadPatches.c.i
 .PHONY : offloadPatches.c.i
 
 offloadPatches.s: offloadPatches.c.s
@@ -150,8 +163,32 @@ offloadPatches.s: offloadPatches.c.s
 
 # target to generate assembly for a file
 offloadPatches.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/patch.dir/build.make CMakeFiles/patch.dir/offloadPatches.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/offloadpatch.dir/build.make CMakeFiles/offloadpatch.dir/offloadPatches.c.s
 .PHONY : offloadPatches.c.s
+
+patch.o: patch.c.o
+.PHONY : patch.o
+
+# target to build an object file
+patch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patch.dir/build.make CMakeFiles/patch.dir/patch.c.o
+.PHONY : patch.c.o
+
+patch.i: patch.c.i
+.PHONY : patch.i
+
+# target to preprocess a source file
+patch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patch.dir/build.make CMakeFiles/patch.dir/patch.c.i
+.PHONY : patch.c.i
+
+patch.s: patch.c.s
+.PHONY : patch.s
+
+# target to generate assembly for a file
+patch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patch.dir/build.make CMakeFiles/patch.dir/patch.c.s
+.PHONY : patch.c.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... offloadpatch"
 	@echo "... patch"
 	@echo "... offloadPatches.o"
 	@echo "... offloadPatches.i"
 	@echo "... offloadPatches.s"
+	@echo "... patch.o"
+	@echo "... patch.i"
+	@echo "... patch.s"
 .PHONY : help
 
 

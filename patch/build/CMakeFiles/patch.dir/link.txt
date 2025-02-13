@@ -1,1 +1,1 @@
-/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc  -mp=gpu -gpu=cc80 CMakeFiles/patch.dir/offloadPatches.c.o -o bin/patch 
+/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc  -mp=gpu -gpu=cc80 CMakeFiles/patch.dir/patch.c.o -o bin/patch 

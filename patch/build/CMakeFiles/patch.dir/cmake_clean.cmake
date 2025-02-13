@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/patch.dir/offloadPatches.c.o"
+  "CMakeFiles/patch.dir/patch.c.o"
   "bin/patch"
   "bin/patch.pdb"
 )

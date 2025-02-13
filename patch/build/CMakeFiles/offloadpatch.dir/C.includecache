@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/patch.c
+/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/offloadPatches.c
 stdio.h
 -
 stdlib.h
 -
 omp.h
--
-math.h
 -
 

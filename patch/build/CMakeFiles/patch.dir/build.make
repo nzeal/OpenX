@@ -69,27 +69,27 @@ include CMakeFiles/patch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/patch.dir/flags.make
 
-CMakeFiles/patch.dir/offloadPatches.c.o: CMakeFiles/patch.dir/flags.make
-CMakeFiles/patch.dir/offloadPatches.c.o: ../offloadPatches.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/patch.dir/offloadPatches.c.o"
-	/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/patch.dir/offloadPatches.c.o -c /leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/offloadPatches.c
+CMakeFiles/patch.dir/patch.c.o: CMakeFiles/patch.dir/flags.make
+CMakeFiles/patch.dir/patch.c.o: ../patch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/patch.dir/patch.c.o"
+	/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/patch.dir/patch.c.o -c /leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/patch.c
 
-CMakeFiles/patch.dir/offloadPatches.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/patch.dir/offloadPatches.c.i"
-	/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/offloadPatches.c > CMakeFiles/patch.dir/offloadPatches.c.i
+CMakeFiles/patch.dir/patch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/patch.dir/patch.c.i"
+	/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/patch.c > CMakeFiles/patch.dir/patch.c.i
 
-CMakeFiles/patch.dir/offloadPatches.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/patch.dir/offloadPatches.c.s"
-	/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/offloadPatches.c -o CMakeFiles/patch.dir/offloadPatches.c.s
+CMakeFiles/patch.dir/patch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/patch.dir/patch.c.s"
+	/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/patch.c -o CMakeFiles/patch.dir/patch.c.s
 
 # Object files for target patch
 patch_OBJECTS = \
-"CMakeFiles/patch.dir/offloadPatches.c.o"
+"CMakeFiles/patch.dir/patch.c.o"
 
 # External object files for target patch
 patch_EXTERNAL_OBJECTS =
 
-bin/patch: CMakeFiles/patch.dir/offloadPatches.c.o
+bin/patch: CMakeFiles/patch.dir/patch.c.o
 bin/patch: CMakeFiles/patch.dir/build.make
 bin/patch: CMakeFiles/patch.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bin/patch"
