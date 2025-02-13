@@ -1,0 +1,27 @@
+# Specify the minimum version of CMake required
+cmake_minimum_required(VERSION 3.10)
+
+# Set the project name
+project(PatchProcessing)
+
+# Set the compiler flags for nvhpc
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -mp=gpu -gpu=cc80")
+
+# Specify the source file
+set(SOURCE_FILE offloadPatches.c)
+
+# Specify the output binary name
+set(OUTPUT_BINARY patch)
+
+# Add executable
+add_executable(${OUTPUT_BINARY} ${SOURCE_FILE})
+
+# Manually set the path to the nvhpc compiler (adjust the path if needed)
+set(CMAKE_C_COMPILER /leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc)
+set(CMAKE_CXX_COMPILER /leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc++)
+
+# Optionally, you can set the output path for the executable
+set_target_properties(${OUTPUT_BINARY} PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+)
+
