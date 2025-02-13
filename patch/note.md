@@ -36,7 +36,6 @@ Here's a brief explanation of the main components:
  - nowait clause enables asynchronous execution
 
 
-## Outcome
 
 
 
