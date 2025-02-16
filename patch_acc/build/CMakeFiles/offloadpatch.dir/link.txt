@@ -1,0 +1,1 @@
+/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/nvhpc-24.3-v63z4inohb4ywjeggzhlhiuvuoejr2le/Linux_x86_64/24.3/compilers/bin/nvc  -acc -gpu=cc80 -gpu=managed -Minfo=all -cuda CMakeFiles/offloadpatch.dir/offloadPatches.c.o -o bin/offloadpatch 

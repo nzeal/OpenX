@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch_acc/patch.c
+stdio.h
+-
+stdlib.h
+-
+openacc.h
+-
+math.h
+-
+sys/time.h
+-
+

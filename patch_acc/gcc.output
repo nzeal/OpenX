@@ -1,0 +1,15 @@
+Number of available devices: 4
+
+Performance Results:
+========================================
+Naive Approach:
+  Time:       7991.789 ms
+  Throughput: 0.00 GOp/s
+  Memory BW:  0.00 GB/s
+
+Optimized Approach:
+  Time:       9064.509 ms
+  Throughput: 0.00 GOp/s
+  Memory BW:  0.00 GB/s
+
+Speedup: 0.9x

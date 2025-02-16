@@ -1,0 +1,4 @@
+/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch_acc/build/CMakeFiles/rebuild_cache.dir
+/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch_acc/build/CMakeFiles/edit_cache.dir
+/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch_acc/build/CMakeFiles/offloadpatch.dir
+/leonardo_scratch/large/userinternal/nshukla1/myGIT/OpenX/patch_acc/build/CMakeFiles/patch.dir
